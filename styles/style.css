@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    padding-top: 30px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.g3-name {
+    margin-left: 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 116px;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-right: 10%;
+    gap: 20px;
+}
+
+.brand {
+    text-align: center;
+}
+
+.brand-new {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.brand-text {
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.brand-btn {
+    border: 0;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    width: 180px;
+    height: 64px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.brand-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.feature-section {
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.feature {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 50%;
+    margin-left: 10%;
+}
+
+.feature-title {
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.quick-text {
+    color: #727272;
+}
+
+.feature-style {
+    color: #FF900E;
+}
+
+.feature-about {
+    color: #727272;
+    margin-bottom:30px;
+}
